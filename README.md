@@ -36,7 +36,7 @@ helm install {Release Name} ./python-chart
 
 ![Build Status](https://github.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Char/blob/master/Imgs/1.png)
 
-![Build Status](https://raw.githubusercontent.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Chart/main/Imgs/2.png?raw=true)
+![Build Status](https://github.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Char/blob/master/Imgs/2.png)
 
 ### Installing kube-prometheous-stack:
 - Add helm repo
@@ -56,7 +56,7 @@ kubectl get svc
 kubectl port-forward svc/prometheus-operated 9090
 ```
 In your browser: 127.0.0.1:9090
-![Build Status](https://raw.githubusercontent.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Chart/main/Imgs/3.png?raw=true)
+![Build Status](https://github.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Char/blob/master/Imgs/3.png)
 
 - Grafana
 ```sh
@@ -64,6 +64,6 @@ kubectl port-forward deployment/prometheus-grafana 3000
 ```
 In your browser: 127.0.0.1:3000
 > Note: grafana-username: admin , grafana-password: prom-operator
-![Build Status](https://raw.githubusercontent.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Chart/main/Imgs/4.png?raw=true)
-![Build Status](https://raw.githubusercontent.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Chart/main/Imgs/5.png?raw=true)
+![Build Status](https://github.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Char/blob/master/Imgs/4.png)
+![Build Status](https://github.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Char/blob/master/Imgs/5.png)
 
