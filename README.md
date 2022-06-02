@@ -1,5 +1,4 @@
-# Helm Task
-
+# Deploy Python WebApp with Redis Using Docker and Helm Chart
 ## Steps
 
 ### In Hello World WebApp folder: open terminal:
