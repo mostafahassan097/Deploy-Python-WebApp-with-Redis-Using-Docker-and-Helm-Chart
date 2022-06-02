@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{.Release.Name}}-websvc
+spec:
+  type:  {{.Values.webservice.type}}
+  selector:
+    app: frontend-app
+  ports:
+    - protocol: TCP
+      port: {{.Values.webservice.port}}
+     
+
+

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{.Release.Name}}-webapp
+spec:
+  replicas: {{.Values.replicaCount}}
+  selector:
+    matchLabels:
+      app : {{.Values.labels.app}}
+  template:
+    metadata:
+      labels:
+        app:  {{.Values.labels.app}}
+    spec:
+      containers:
+        - name: frontend-app
+          image: {{.Values.webimage.repository}}
+          ports:
+            - containerPort: {{.Values.webservice.port}}
+          envFrom:
+          - configMapRef:
+              name:  webapp-config-map

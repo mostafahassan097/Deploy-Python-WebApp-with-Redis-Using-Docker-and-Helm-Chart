@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{.Release.Name}}-backend-db
+spec:
+  replicas: {{.Values.replicaCount}}
+  selector:
+    matchLabels:
+      app:  {{.Values.dblables.app}}
+  template:
+    metadata:
+      labels:
+        app: {{.Values.dblables.app}}
+    spec:
+      containers:
+        - name: backend-db
+          image: {{.Values.dbimage.repository}}
+          ports:
+            - containerPort: {{.Values.dbservice.port}}
+              name: redis

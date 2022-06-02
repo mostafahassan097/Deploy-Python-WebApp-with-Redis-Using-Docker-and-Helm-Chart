@@ -1,0 +1,7 @@
+apiVersion: v2
+name: python-chart
+description: A Helm chart PythonWebApp
+type: application
+version: 0.1.0
+
+appVersion: "1.16.0"
