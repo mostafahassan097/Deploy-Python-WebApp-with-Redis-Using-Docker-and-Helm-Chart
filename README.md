@@ -34,7 +34,7 @@ helm lint ./python-chart
 helm install {Release Name} ./python-chart
 ```
 
-![Build Status](https://raw.githubusercontent.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Chart/main/Imgs/1.png?raw=true)
+![Build Status](https://github.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Char/blob/master/Imgs/1.png)
 
 ![Build Status](https://raw.githubusercontent.com/mostafahassan097/Deploy-Python-WebApp-with-Redis-Using-Docker-and-Helm-Chart/main/Imgs/2.png?raw=true)
 
